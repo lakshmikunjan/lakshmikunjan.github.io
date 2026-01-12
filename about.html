@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Lakshmi Kunjan</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo"><span class="bracket">&lt;</span>LK<span class="bracket">/&gt;</span></div>
+            <ul class="nav-menu">
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html" class="active">about</a></li>
+                <li><a href="projects.html">projects</a></li>
+                <li><a href="skills.html">skills</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Grid Background -->
+    <div class="grid-background"></div>
+
+    <!-- About Section -->
+    <section class="content-section">
+        <div class="container">
+            <h1 class="page-title">
+                <span class="code-symbol">//</span> About Me
+            </h1>
+
+            <div class="content-grid">
+                <div class="code-block">
+                    <div class="code-header">
+                        <span class="file-name">about.py</span>
+                    </div>
+                    <div class="code-content">
+                        <pre><code><span class="keyword">class</span> <span class="class-name">SoftwareEngineer</span>:
+    <span class="keyword">def</span> <span class="function">__init__</span>(<span class="param">self</span>):
+        <span class="param">self</span>.name = <span class="string">"Lakshmi Kunjan"</span>
+        <span class="param">self</span>.education = <span class="string">"Case Western Reserve University"</span>
+        <span class="param">self</span>.degree = <span class="string">"B.S. Computer Science"</span>
+        <span class="param">self</span>.graduation = <span class="number">December 2025</span>
+        <span class="param">self</span>.location = <span class="string">"Pittsburgh, PA"</span>
+        
+    <span class="keyword">def</span> <span class="function">get_focus</span>(<span class="param">self</span>):
+        <span class="keyword">return</span> [
+            <span class="string">"Backend Development"</span>,
+            <span class="string">"API Design"</span>,
+            <span class="string">"Database Optimization"</span>,
+            <span class="string">"System Architecture"</span>
+        ]</code></pre>
+                    </div>
+                </div>
+
+                <div class="info-panel">
+                    <div class="panel-section">
+                        <h3><span class="arrow">&gt;</span> Background</h3>
+                        <p>Recent graduate from Case Western Reserve University with a bachelors degree in Computer Science with concentration in software engineering. Also, has a business management minor. Passionate about building robust backend systems and creating efficient, scalable solutions.</p>
+                    </div>
+
+                    <div class="panel-section">
+                        <h3><span class="arrow">&gt;</span> Experience</h3>
+                        <p>Worked on backend development, API design, and database optimization across various internships. Experience ranges from inventory management systems to banking applications.</p>
+                    </div>
+
+                    <div class="panel-section">
+                        <h3><span class="arrow">&gt;</span> Currently</h3>
+                        <p>Exploring new technologies, contributing to open-source projects, and seeking opportunities to build impactful software solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
